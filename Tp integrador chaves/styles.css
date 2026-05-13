@@ -1,0 +1,31 @@
+section{
+    background-color: #060914;
+    padding: 20px;
+    margin: 20px;
+    height: 500px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;;
+    height: 100%;
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bottom{
+        color: #fff;
+
+        .tabla-head{
+            background-color: silver;
+            display: grid;
+            grid-template-columns: 5% 17% 10% 10% 12% 17% 12% 12% 5%;
+            grid-template-rows: auto;
+            font-weight: bold;
+            
+
+        }
+    }
+}
